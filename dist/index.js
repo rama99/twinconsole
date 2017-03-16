@@ -1,3 +1,5 @@
-module.exports.print = msg => {
-    console.log(msg , "babel");
+"use strict";
+
+module.exports.print = function (msg) {
+    console.log(msg);
 };
